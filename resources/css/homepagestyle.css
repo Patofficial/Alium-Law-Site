@@ -132,7 +132,7 @@ li ul{
 /*background-image is a placeholder until we get the final one with the right backgroung color */
 /*Also need help embedding the background images locally throughout*/
 .jumbotron-fluid {
-  background-image: url('https://lh6.googleusercontent.com/kM6sAH5Mfreck_yPqEeLLSVrMvgva9x_8Aif9x5rsiOesvdZ25ue3GcBqB3FgewC_hGsKtKJ2gSzRZXL0v-C=w1600-h794-rw');
+  background-image: url('../images/Partners Banner.jpg');
   height: 48rem;
   background-position: right;
   background-size: contain;
@@ -204,31 +204,31 @@ li ul{
 }
 
 .imagebox-overview #commercial {
-  background-image: url('https://lh5.googleusercontent.com/7dpM8hXHxSK0qhlHWQyY4KB_Q6kE-945dkrjGLmTQy142EWM_FXw7BI2E7LkEPigQCFpqRwe6L0uDmE5XyqP=w1600-h745-rw');
+  background-image: url('../images/commercial law.jpg');
 }
 
 .imagebox-overview #property {
-  background-image: url('https://lh6.googleusercontent.com/3A7FlPZhr2qLmJmPtGe8RcVZwUVQC_-R2szgYUp_aUPaPQEN02bT73ndKNoqFBi2iW8wWsY3VA9oPXQUKARx=w1600-h745');
+  background-image: url('../images/real-estate-law.jpg');
 }
 
 .imagebox-overview #banking {
-  background-image: url('https://lh4.googleusercontent.com/YhnRg2OwEKVY5_NuIWyIIeqy37jeMpn8A7ICRSrazpU5fu8xm1AF2BS2AxE-FDGqERRifVV-980twzJS_MMC=w1600-h745');
+  background-image: url('../images/banking-and-finance.jpg');
 }
 
 .imagebox-overview #employment {
-  background-image: url('https://lh3.googleusercontent.com/_qf6_SxxPYOvTvjJp8IjrHO8i3ZidyauxsB1kHNEBr2NYqhXum7qIcOIsysk5FB23i1zCZZdSXp4wPa20VJV=w1600-h745');
+  background-image: url('../images/labor law 2.jpg');
 }
 
 .imagebox-overview #intellectual-property {
-  background-image: url('https://lh4.googleusercontent.com/TVPY_kqX5LtUgfSsAehPtLCyaOJAYrUqSrOXpaSdGi0zHjZbEcVCAUNU1tx2dGIOppgZIm_Hm81diKnaK2v4=w1600-h745');
+  background-image: url('../images/Intellectual-Property.jpg');
 }
 
 .imagebox-overview #estates {
-  background-image: url('https://lh6.googleusercontent.com/Cftbfdxx1oaqjtp6VaqIc4mxc-7HPGXov1sQQGy1f-cNfhCbhQrVuyxOs1NM408NnzadxHh-nqKc9Oe08tSC=w1600-h745-rw');
+  background-image: url('../images/Lawyers-estate-planning.jpg');
 }
 
 .imagebox-overview #sports {
-  background-image: url('https://lh6.googleusercontent.com/pGb0J_vMAu-n29NCLJfbrJTDyP1VIN3nGH8AgVjC4NtS1siZQpDCa9daXR34q6gSMbvBhjlK2PtmU-4gD_4E=w1600-h745-rw');
+  background-image: url('../images/Sports Law.jpg');
 }
 
 .imagebox-overview:hover .PracticeAreas,
@@ -279,16 +279,16 @@ li ul{
 }
 
 .imagebox #Partners {
-  background-image: url('https://lh4.googleusercontent.com/Wpykm9t1AbueQUB9ODlI52PNtHtgLoaec03S-T6MxxsFUndvuRGcghVv7Q-i57-64-cxz0BfWAeMUL0F8UGj=w1600-h794-rw');
+  background-image: url('../images/DSC_6693_cropped-2-vanilla.jpg');
 }
 
 .imagebox #Areas {
-  background-image: url('https://lh3.googleusercontent.com/jmQ2xKxYejy26Ifo-cDkTDcQ_5HQ4U7oWV1RrmPAg7FWP3o7K_8D3jhFT3CbnQr_mLobGW_MZhQiOS-fMF-Z=w1600-h794-rw');
+  background-image: url('../images/Practice Areas.jpg');
 
 }
 
 .imagebox #difference {
-  background-image: url('https://lh4.googleusercontent.com/jIMLy8bRmufcqaai7aeE1kLDPAihT8NxsJQJ9F_orcJVGOgBiC-QxGp1vwho-BONhujbVv_W6BxRr1o40D6e=w1600-h794-rw');
+  background-image: url('../images/difference.jpg');
 
 }
 
@@ -315,25 +315,61 @@ li ul{
   display: block;
 }
 
+/*contact section*/
+.contactbox {
+  background-color: #d9d9db;
+  height: 25rem;
+}
 
-/*contact*/
-#contact {
-  background-color: #272725;
-  color: white;
+.Contact::before {
+  content: "";
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(46, 49, 53, 0.75);
+}
+
+.contactbox:hover .Contact:before,
+.contactbox:focus .Contact:before {
+  display: block;
+}
+
+
+.contactbox {
+  color: black;
 
 }
 
-#contact h2 {
+.contactbox h2 {
   padding: 2rem 0;
+  font-weight: bold;
+  font-family: helvetica;
 }
 
-#contact h4 {
+.contactbox h4 {
   padding: 0.5rem 0;
 }
 
-.row #contact-form {
+@media only screen and (max-width: 991px){
+   #logo {
+    display: none;
+  }
+
+  }
+
+.row .text-center {
   margin-top: 2rem;
 }
+
+#contact {
+  background-color: #272725;
+
+}
+
+
 
 .form input {
   width: 100%;
@@ -341,6 +377,7 @@ li ul{
   padding: 0 20px;
   border: none;
   margin-right: 5px;
+  margin-top: 2rem;
   background: rgba(255, 255, 255, .85);
   box-shadow: 0 2px 2px rgba(0, 0, 0, .15);
   color: #473e39;
@@ -351,6 +388,7 @@ li ul{
   height: 180px;
   margin-bottom: 2rem;
 }
+
 
 /*footer*/
 footer {

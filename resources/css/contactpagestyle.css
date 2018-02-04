@@ -138,13 +138,10 @@ li ul{
   margin: 4rem 0;
 }
 
-.jumbotron h2,
+
 .jumbotron p {
   font-family: helvetica;
   color: black;
-}
-
-.jumbotron p {
   font-size: 1rem;
 }
 
@@ -250,6 +247,11 @@ li ul{
 /*map*/
 .row #map {
   height: 50rem;
+
+}
+
+.mapdiv {
+  background-color: #d9d9db;
 
 }
 
