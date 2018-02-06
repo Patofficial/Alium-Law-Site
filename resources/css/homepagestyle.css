@@ -58,9 +58,15 @@ header .container {
   height: 50rem;
 }
 
+/*this is the navigation on the dropdown menus*/
+.rightMenu {
+    position:absolute;
+    float:right;
+    top: 0;
+    left: 160px;
+}
 
-
-/*humberger menu*/
+/*humburger menu*/
 .hamburger {
     display: inline-block;
     cursor: pointer;
