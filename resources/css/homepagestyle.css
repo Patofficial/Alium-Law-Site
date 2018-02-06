@@ -6,7 +6,6 @@ body{
 
 h3 {
   font-family: Roboto Condensed;
-  color: white;
   font-size: 2rem;
 }
 
@@ -30,13 +29,13 @@ header .container {
 
 .navbar-header a {
   font-family: Roboto Condensed;
-  font-size: 2rem;
+  font-size: 3rem;
   color: black;
   }
 
 .navbar-header span{
   font-family: helvetica;
-  font-size: 2rem;
+  font-size: 3rem;
   color: black;
 }
 
@@ -142,13 +141,11 @@ li ul{
 
 .jumbotron h1 {
   font-family: Roboto Condensed;
-  color: white;
   font-size: 4.35rem;
 }
 
 .jumbotron h2 {
   font-family: helvetica;
-  color: white;
   margin-top: 0;
 }
 
@@ -166,13 +163,13 @@ li ul{
 }
 
 #overview h3 {
-  color: black;
+  font-size: 3rem;
 }
 
 #overview p {
   line-height: 2rem;
-  color: black;
   padding: 0.5rem;
+  text-align: justify;
 
 }
 
@@ -366,6 +363,7 @@ li ul{
 
 #contact {
   background-color: #272725;
+  padding-bottom: 2rem;
 
 }
 
@@ -392,6 +390,7 @@ li ul{
 
 /*footer*/
 footer {
+  font-family: Roboto Condensed;
   border-top: solid white 1px;
   background-color: #272725;
   color: white;
@@ -399,7 +398,6 @@ footer {
 }
 
 footer .row {
-  padding-left: 4rem;
-  padding-top: 1rem;
+  padding: 1rem 4rem;
   font-size: 1rem;
 }

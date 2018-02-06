@@ -2,7 +2,7 @@
 body{
   font-family: helvetica;
   font-size: 18px;
-};
+}
 
 h3 {
   font-family: Roboto Condensed;
@@ -28,13 +28,13 @@ header .container {
 
 .navbar-header a {
   font-family: Roboto Condensed;
-  font-size: 2rem;
+  font-size: 3rem;
   color: black;
   }
 
 .navbar-header span{
   font-family: helvetica;
-  font-size: 2rem;
+  font-size: 3rem;
   color: black;
 }
 
@@ -122,6 +122,7 @@ li ul{
     }
 
   }
+
   /*jumbotron*/
 
   .jumbotron-fluid {
@@ -135,14 +136,15 @@ li ul{
 
 
   .jumbotron p {
-    font-family: helvetica;
-    color: black;
+    font-family: Roboto Condensed;
     font-size: 1rem;
+    line-height: 1.4;
+
+
   }
 
   .jumbotron h1 {
     font-family: Roboto Condensed;
-    color: black;
     font-size: 3rem;
     padding: 1rem 0;
   }
@@ -167,29 +169,36 @@ li ul{
 
   /*difference*/
   #difference {
-    /*background-color: #d9d9db;*/
     background-color: #272725;
     margin-bottom: 2rem;
     height: auto;
 
   }
 
+  #difference a {
+    font-family: Roboto Condensed;
+  }
+
   .image {
     height: 30rem;
   }
 
-  img {
-    width: 100%;
-    height: 100%;
+  #differenceimage {
+    background-image: url('../images/difference.jpg');
+    background-position: center;
   }
 
   h2 {
     margin: 2rem 0;
+    color: white;
   }
 
-  p {
+  #difference p,
+  #values p {
     margin-bottom: 2rem;
     line-height: 1.4;
+    color: white;
+    text-align: justify;
   }
 
   .panel-body{
@@ -197,11 +206,21 @@ li ul{
   }
 
   #values {
-  /*  background-color: #d9d9db; */
   background-color: #272725;
 
     height: auto;
 
+  }
+
+  #values a {
+    font-family: Roboto Condensed;
+  }
+
+  #valuesimage {
+    background-image: url('../images/values (3).jpeg');
+    background-position: top;
+    background-size:contain;
+    background-repeat: no-repeat;
   }
 
   /*About*/
@@ -277,6 +296,7 @@ li ul{
 
   /*footer*/
   footer {
+    font-family: Roboto Condensed;
     border-top: solid white 1px;
     background-color: #272725;
     color: white;
@@ -284,7 +304,6 @@ li ul{
   }
 
   footer .row {
-    padding-left: 4rem;
-    padding-top: 1rem;
+    padding: 1rem 4rem;
     font-size: 1rem;
   }

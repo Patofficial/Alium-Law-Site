@@ -253,7 +253,13 @@ li ul{
 
 }
 
+.imagebox-overviewareas #infrastructurepic {
+  background-image: url('../images/infrastructure.jpg');
+}
 
+.imagebox-overviewareas #disputeresolutionpic {
+  background-image: url('../images/dispute.jpg');
+}
 
 
 /*About*/
