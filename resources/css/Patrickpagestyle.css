@@ -30,13 +30,13 @@ header .container {
 
 .navbar-header a {
   font-family: Roboto Condensed;
-  font-size: 2rem;
+  font-size: 3rem;
   color: black;
   }
 
 .navbar-header span{
   font-family: helvetica;
-  font-size: 2rem;
+  font-size: 3rem;
   color: black;
 }
 
@@ -59,9 +59,14 @@ header .container {
   height: 50rem;
 }
 
+.rightMenu {
+    position:absolute;
+    float:right;
+    top: 0;
+    left: 240px;
+}
 
-
-/*humberger menu*/
+/*humburger menu*/
 .hamburger {
     display: inline-block;
     cursor: pointer;
@@ -125,8 +130,6 @@ li ul{
 
   }
 
-
-
 /*jumbotron*/
 
 /*background-image is a placeholder until we get the final one with the right backgroung color */
@@ -143,14 +146,18 @@ li ul{
 
 .jumbotron h1 {
   font-family: Roboto Condensed;
-  color: white;
   font-size: 4.35rem;
+  color: black;
 }
 
 .jumbotron h2 {
   font-family: helvetica;
-  color: white;
   margin-top: 0;
+  color: black;
+}
+
+.jumbotron img {
+  height: 15rem;
 }
 
 /*overview*/
@@ -320,6 +327,10 @@ li ul{
   padding: 0.5rem 0;
 }
 
+.contactbox img {
+  height: 20rem;
+}
+
 @media only screen and (max-width: 991px){
    #logo {
     display: none;
@@ -333,10 +344,15 @@ li ul{
 
 #contact {
   background-color: #272725;
+  padding-bottom: 2rem;
 
 }
 
-
+#contact h3 {
+  color: white;
+  font-family: Roboto Condensed;
+  font-size: 2rem;
+}
 
 .form input {
   width: 100%;
@@ -359,6 +375,7 @@ li ul{
 
 /*footer*/
 footer {
+  font-family: Roboto Condensed;
   border-top: solid white 1px;
   background-color: #272725;
   color: white;
@@ -366,7 +383,6 @@ footer {
 }
 
 footer .row {
-  padding-left: 4rem;
-  padding-top: 1rem;
+  padding: 1rem 4rem;
   font-size: 1rem;
 }

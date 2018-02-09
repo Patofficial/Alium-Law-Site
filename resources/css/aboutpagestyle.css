@@ -57,9 +57,14 @@ header .container {
   height: 50rem;
 }
 
+.rightMenu {
+    position:absolute;
+    float:right;
+    top: 0;
+    left: 240px;
+}
 
-
-/*humberger menu*/
+/*humburger menu*/
 .hamburger {
     display: inline-block;
     cursor: pointer;
@@ -127,7 +132,11 @@ li ul{
 
   .jumbotron-fluid {
     height: 24rem;
-    background-color: #a4a3a8
+    background-color: #a4a3a8;
+    background-image: url('../images/backpaper.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .jumbotron .textbox {
@@ -139,7 +148,6 @@ li ul{
     font-family: Roboto Condensed;
     font-size: 1rem;
     line-height: 1.4;
-
 
   }
 
@@ -257,17 +265,17 @@ li ul{
 
   }
 
-  .imagebox #Partners {
+  .imagebox #partners {
     background-image: url('../images/DSC_6693_cropped-2-vanilla.jpg');
-  }
-
-  .imagebox #Areas {
-    background-image: url('../images/Practice Areas.jpg');
-
   }
 
   .imagebox #contact {
     background-image: url('../images/contactUs.jpg');
+
+  }
+
+  .imagebox #areas {
+    background-image: url('../images/Practice Areas.jpg');
 
   }
 
@@ -293,6 +301,7 @@ li ul{
   .imagebox:focus .Team:before {
     display: block;
   }
+
 
   /*footer*/
   footer {

@@ -30,13 +30,13 @@ header .container {
 
 .navbar-header a {
   font-family: Roboto Condensed;
-  font-size: 2rem;
+  font-size: 3rem;
   color: black;
   }
 
 .navbar-header span{
   font-family: helvetica;
-  font-size: 2rem;
+  font-size: 3rem;
   color: black;
 }
 
@@ -59,9 +59,14 @@ header .container {
   height: 50rem;
 }
 
+.rightMenu {
+    position:absolute;
+    float:right;
+    top: 0;
+    left: 240px;
+}
 
-
-/*humberger menu*/
+/*humburger menu*/
 .hamburger {
     display: inline-block;
     cursor: pointer;
@@ -131,7 +136,11 @@ li ul{
 
   .jumbotron-fluid {
     height: 24rem;
-    background-color: #a4a3a8
+    background-color: #a4a3a8;
+    background-image: url('../images/backpaper.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .jumbotron .textbox {
@@ -164,7 +173,6 @@ li ul{
 /*overview*/
 #overviewareas .text {
   margin: 1rem;
-  font-family: Roboto Condensed;
 }
 
 #overviewareas h2 {
@@ -182,6 +190,8 @@ li ul{
   line-height: 2rem;
   color: black;
   padding: 0.5rem;
+  margin-bottom: 2rem;
+  text-align: justify;
 
 }
 
@@ -189,6 +199,10 @@ li ul{
   font-family: Roboto Condensed;
   font-size: 2rem;
   padding: 4rem 0;
+}
+
+.profile a {
+  padding: 2rem 0;
 }
 
 #overviewareas .profile {
@@ -300,8 +314,8 @@ li ul{
   background-image: url('../images/DSC_6693_cropped-2-vanilla.jpg');
 }
 
-.imagebox #Areas {
-  background-image: url('../images/Practice Areas.jpg');
+.imagebox #Contact {
+  background-image: url('../images/contactUs.jpg');
 
 }
 
@@ -359,6 +373,7 @@ li ul{
 .contactbox {
   color: black;
 
+
 }
 
 .contactbox h2 {
@@ -369,6 +384,10 @@ li ul{
 
 .contactbox h4 {
   padding: 0.5rem 0;
+}
+
+.contactbox img {
+  height: 20rem;
 }
 
 @media only screen and (max-width: 991px){
@@ -384,7 +403,14 @@ li ul{
 
 #contact {
   background-color: #272725;
+  padding-bottom: 2rem;
 
+}
+
+#contact h3{
+  color: white;
+  font-family: Roboto Condensed;
+  font-size: 2rem;
 }
 
 
@@ -410,6 +436,7 @@ li ul{
 
 /*footer*/
 footer {
+  font-family: Roboto Condensed;
   border-top: solid white 1px;
   background-color: #272725;
   color: white;
@@ -417,7 +444,6 @@ footer {
 }
 
 footer .row {
-  padding-left: 4rem;
-  padding-top: 1rem;
+  padding: 1rem 4rem;
   font-size: 1rem;
 }
